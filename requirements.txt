@@ -1,0 +1,15 @@
+whisper
+ffmpeg-python
+# Note: 'uvre' and 'yt-dlp' are external command-line tools, install separately:
+
+# For UVR (Ultimate Vocal Remover CLI):
+# See https://github.com/Anjok07/ultimatevocalremovergui
+# Installation varies by system; typically via standalone binaries or pip (if available)
+
+# For yt-dlp:
+# Install via:
+yt-dlp
+
+# ffmpeg should be installed at system level, not via pip
+# e.g., on Ubuntu: sudo apt install ffmpeg
+# on Windows/macOS: download from https://ffmpeg.org/download.html
