@@ -32,7 +32,6 @@ def run_mdxnet_separation(input_wav, output_dir):
     print("Vocal separation done.")
 
 def run_whisper_transcribe_karaoke(input_wav, output_ass):
-    import whisper
     model = whisper.load_model("base")
     result = model.transcribe(input_wav, word_timestamps=True)
     segments = result["segments"]
